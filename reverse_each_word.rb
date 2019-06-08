@@ -11,5 +11,5 @@ def reverse_each_word(origin_word)
   origin_word.collect do |word|
     word.reverse 
   end
-  
+  origin_word.join(",")
 end 
