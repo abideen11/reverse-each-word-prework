@@ -3,5 +3,5 @@ def reverse_each_word(origin_word)
   origin_word.each do |word|
   word.reverse
 end 
-
+origin_word.
 end 
