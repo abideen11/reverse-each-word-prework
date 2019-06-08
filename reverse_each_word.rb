@@ -5,3 +5,8 @@ def reverse_each_word(origin_word)
 end 
 origin_word.join(",")
 end 
+
+def reverse_each_word(origin_word)
+  origin_word.split(",")
+  
+end 
