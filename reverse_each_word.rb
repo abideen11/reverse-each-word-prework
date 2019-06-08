@@ -8,5 +8,7 @@ end
 
 def reverse_each_word(origin_word)
   origin_word.split(",")
-  
+  origin_word.collect do |word|
+    word.reverse 
+  end 
 end 
